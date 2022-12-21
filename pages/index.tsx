@@ -11,8 +11,10 @@ export default function Home() {
       <div className={styles.home_1}>
         <div className={styles.home_1_text}>
           <h1>
-            Stocking. Simplified.
+            Stocking.  Simplified.
           </h1>
+          <br/>
+          <h1>🍻</h1>
         </div>
       </div>
       {/* <Image className={styles.home_1_img} src={mainImage} alt="main promo image"/> */}
