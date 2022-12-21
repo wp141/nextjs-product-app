@@ -1,19 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Pricing.module.css'
 import LandingNav from '../components/LandingNav'
-import { Card, Text, Spacer, Button } from '@nextui-org/react'
+import { Card, Text, Spacer, Button, Row } from '@nextui-org/react'
 
 export default function Pricing() {
   return (
     <div>
        <LandingNav/>
        <div className={styles.pricing_content}>
-          <h2>Pricing</h2> 
+          <Text h2>Pricing</Text>
           <Spacer></Spacer> 
           <div className={styles.pricing_cards}>
             <Card className={styles.pricing_card}>
                 <Card.Header>
-                    <Text b>Pro</Text>
+                    <Row justify="center">
+                        <Text b>Pro</Text>
+                    </Row>   
                 </Card.Header>
                 <Card.Divider/>
                 <h1>$99/mo</h1>
@@ -24,14 +26,18 @@ export default function Pricing() {
                 Track sales and inventory, manage employee schedules and payroll, and even market your venue to potential customers. Automate ordering and inventory management to provide actionable insights and analytics.
                 </Card.Body>
                 <Card.Footer>
-                    <Button>
-                        Sign Up
-                    </Button>
+                    <Row justify="center">
+                        <Button>
+                            Sign Up
+                        </Button>
+                    </Row>   
                 </Card.Footer>
             </Card>
             <Card className={styles.pricing_card}>
                 <Card.Header>
-                    <Text b>Group</Text>
+                    <Row justify="center">
+                        <Text b>Enterprise</Text>
+                    </Row>   
                 </Card.Header>
                 <Card.Divider/>
                 <h1>-</h1>
@@ -42,14 +48,16 @@ export default function Pricing() {
                 But X isn't just a data management tool. We also offer a suite of powerful tools to help you run your business more efficiently. Automate ordering and inventory management, gain valuable insights and analytics, and make informed decisions about your business.
                 </Card.Body>
                 <Card.Footer>
-                    <Button disabled>
-                        Contact Sales
-                    </Button>
+                    <Row justify="center">
+                        <Button disabled>
+                            Contact Sales
+                        </Button>
+                    </Row>
                 </Card.Footer>
             </Card>
           </div>
-          <Spacer></Spacer>
-
+          <Spacer y={3} />
+          <Spacer y={3} />
        </div>
     </div>
   )

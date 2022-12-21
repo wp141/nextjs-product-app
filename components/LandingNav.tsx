@@ -4,7 +4,7 @@ import { Navbar, Button, Link } from '@nextui-org/react'
 
 export default function LandingNav() {
   return (
-    <Navbar className={styles.nav_parent}>
+    <Navbar className={styles.nav_parent} variant={'sticky'}>
         <Navbar.Brand>
             <Link href="/"><h3>X</h3></Link>
         </Navbar.Brand>
