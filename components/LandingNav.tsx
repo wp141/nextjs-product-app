@@ -6,7 +6,7 @@ export default function LandingNav() {
   return (
     <Navbar className={styles.nav_parent}>
         <Navbar.Brand>
-            <Link href="/"><h3>SAAS</h3></Link>
+            <Link href="/"><h3>X</h3></Link>
         </Navbar.Brand>
         <Navbar.Collapse>
             <Navbar.CollapseItem><Link href="/features">Features</Link></Navbar.CollapseItem>
