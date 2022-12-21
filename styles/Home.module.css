@@ -1,0 +1,30 @@
+.home_1 {
+    margin-inline: 20%;
+    margin-block: 10%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    width: auto;
+}
+
+.home_1_text {
+    float: left;
+    width: auto;
+    
+}
+
+.home_1_text h1 {
+    font-size: 4rem;
+}
+
+
+.home_1_img {
+    height: auto;
+    width: 90%;
+    float: right;
+}
+
+/* .home {
+    width: 100%;
+} */

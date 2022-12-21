@@ -1,0 +1,33 @@
+.pricing_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricing_content h2 {
+    margin-block: 5%;
+    /* width: 100%; */
+}
+
+.pricing_cards {
+    display: flex;
+    margin-inline: 10%;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* margin-block: 5%; */
+}
+
+.pricing_card {
+    margin-block: 10%;
+    margin: 5%;
+    min-width: 200px;
+    max-width: 350px;
+    width: 50%;
+    padding: 50px;
+    min-height: 500px;
+    /* float: left; */
+}

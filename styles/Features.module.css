@@ -1,0 +1,9 @@
+.features_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features_content h2 {
+    margin-block: 5%;
+}

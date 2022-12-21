@@ -1,26 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Navbar, Button } from '@nextui-org/react'
+import LandingNav from '../components/LandingNav'
+import Image from 'next/image'
+import mainImage from '../public/home_main.png'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar>
-        <Navbar.Brand>
-          <h3>SAAS</h3>
-        </Navbar.Brand>
-        <Navbar.Collapse>
-          <Navbar.CollapseItem>Features</Navbar.CollapseItem>
-          <Navbar.CollapseItem>Pricing</Navbar.CollapseItem>
-          <Navbar.CollapseItem>Login</Navbar.CollapseItem>
-        </Navbar.Collapse>
-        <Navbar.Toggle showIn="xs"/>
-        <Navbar.Content hideIn="xs">
-          <Navbar.Link>Features</Navbar.Link>
-          <Navbar.Link>Pricing</Navbar.Link>
-          <Button flat auto >Login</Button>
-        </Navbar.Content>
-      </Navbar>
+    <div className={styles.home}>
+      <LandingNav/>
+      <div className={styles.home_1}>
+        <div className={styles.home_1_text}>
+          <h1>
+            Stocking. Simplified.
+          </h1>
+        </div>
+      </div>
+      {/* <Image className={styles.home_1_img} src={mainImage} alt="main promo image"/> */}
     </div>
   )
 }
