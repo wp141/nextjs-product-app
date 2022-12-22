@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.home_1}>
         <div className={styles.home_1_text}>
           <h1>
-            Stocking.  Simplified.
+            Hospitality.  Simplified.
           </h1>
           <br/>
           <h1>🍻</h1>

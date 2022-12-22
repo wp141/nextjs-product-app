@@ -1,9 +1,15 @@
 .features_content {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .features_content h2 {
-    margin-block: 5%;
+    margin-top: 5%;
+}
+
+.features_content b {
+    margin-inline: 10%;
 }

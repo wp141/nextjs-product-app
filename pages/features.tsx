@@ -7,7 +7,8 @@ export default function Features() {
     <div>
        <LandingNav/>
        <div className={styles.features_content}>
-          <h2>Features</h2>  
+          <h2>Features</h2><br/>
+          <b>Transform your hospitality venue with actionable insights and powerful management tools.</b>
        </div>
     </div>
   )

@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/LandingNav.module.css'
-import { Navbar, Button, Link } from '@nextui-org/react'
+import { Navbar, Button, Link, Text } from '@nextui-org/react'
 
 export default function LandingNav() {
   return (
     <Navbar className={styles.nav_parent} variant={'sticky'}>
         <Navbar.Brand>
-            <Link href="/"><h3>X</h3></Link>
+            <Link href="/"><Text h3>XYZ</Text></Link>
         </Navbar.Brand>
         <Navbar.Collapse>
             <Navbar.CollapseItem><Link href="/features">Features</Link></Navbar.CollapseItem>
