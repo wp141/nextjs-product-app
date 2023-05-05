@@ -9,7 +9,6 @@ export default function Pricing() {
        <LandingNav/>
        <div className={styles.pricing_content}>
           <Text h2>Pricing</Text>
-          <Spacer></Spacer> 
           <div className={styles.pricing_cards}>
             <Card className={styles.pricing_card}>
                 <Card.Header>
@@ -30,11 +29,6 @@ export default function Pricing() {
                         🚫 Feature 6 <br/><br/>
                     </Row>   
                 </Card.Body>
-                {/* <Card.Body>
-                X aggregates all of your data and tools in one easy-to-use platform, giving you more time to focus on what really matters: delivering the best customer experience possible. 
-                <br/><br/>
-                Track sales and inventory, manage employee schedules and payroll, and even market your venue to potential customers. Automate ordering and inventory management to provide actionable insights and analytics.
-                </Card.Body> */}
                 <Card.Footer>
                     <Row justify="center">
                         <Button>
