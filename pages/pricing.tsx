@@ -14,7 +14,7 @@ export default function Pricing() {
             <Card className={styles.pricing_card}>
                 <Card.Header>
                     <Row justify="center">
-                        <Text b>Venue</Text>
+                        <Text b>Option A</Text>
                     </Row>   
                 </Card.Header>
                 <Card.Divider/>
@@ -22,12 +22,12 @@ export default function Pricing() {
                 <Card.Divider/>
                 <Card.Body>
                     <Row >
-                        ✅ POS Integrations <br/><br/>
-                        ✅ Workforce Management Integrations <br/><br/>
-                        ✅ Stock & Sales Analytics <br/><br/>
-                        {/* ❌ Multiple Venues <br/><br/>
-                        ❌ Advanced Data Science Tools <br/><br/>
-                        ❌ Advanced Reporting <br/><br/> */}
+                        ✅ Feature 1 <br/><br/>
+                        ✅ Feature 2 <br/><br/>
+                        ✅ Feature 3 <br/><br/>
+                        🚫 Feature 4 <br/><br/>
+                        🚫 Feature 5 <br/><br/>
+                        🚫 Feature 6 <br/><br/>
                     </Row>   
                 </Card.Body>
                 {/* <Card.Body>
@@ -46,7 +46,7 @@ export default function Pricing() {
             <Card className={styles.pricing_card}>
                 <Card.Header>
                     <Row justify="center">
-                        <b>Group</b>
+                        <b>Option B</b>
                     </Row>   
                 </Card.Header>
                 <Card.Divider/>
@@ -57,12 +57,12 @@ export default function Pricing() {
                 <br/><br/>
                 But X isn't just a data management tool. We also offer a suite of powerful tools to help you run your business more efficiently. Automate ordering and inventory management, gain valuable insights and analytics, and make informed decisions about your business. */}
                 <Row >
-                        ✅ POS Integrations <br/><br/>
-                        ✅ Workforce Management Integrations <br/><br/>
-                        ✅ Stock & Sales Analytics <br/><br/>
-                        ✅ Multiple Venues <br/><br/>
-                        ✅ Advanced Data Science Tools <br/><br/>
-                        ✅ Advanced Reporting <br/><br/>
+                        ✅ Feature 1 <br/><br/>
+                        ✅ Feature 2 <br/><br/>
+                        ✅ Feature 3 <br/><br/>
+                        ✅ Feature 4 <br/><br/>
+                        ✅ Feature 5 <br/><br/>
+                        ✅ Feature 6 <br/><br/>
                     </Row> 
                 </Card.Body>
                 <Card.Footer>

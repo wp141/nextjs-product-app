@@ -10,11 +10,11 @@ export default function Home() {
       <LandingNav/>
       <div className={styles.home_1}>
         <div className={styles.home_1_text}>
-          <h1>
-            Hospitality.  Simplified.
+          <h1> 
+            Your Product.   Right Here.
           </h1>
           <br/>
-          <h1>🍻</h1>
+          <h1>💼</h1>
         </div>
       </div>
       {/* <Image className={styles.home_1_img} src={mainImage} alt="main promo image"/> */}
